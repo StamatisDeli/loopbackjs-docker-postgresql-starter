@@ -69,8 +69,10 @@ npm test
 
 ## Docker and api
 
+Using the docker's [postgress image](https://hub.docker.com/_/postgres)
+
 - `docker compose up`
-- The admin page is at `http://localhost:8080/`
+- the admin page is at `http://localhost:8080/`
 - try the api at `localhost:3000/users`
 
 ## What's next
