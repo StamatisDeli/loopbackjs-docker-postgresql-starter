@@ -20,6 +20,12 @@ npm ci
 
 ## Run the application
 
+Start docker image
+
+```sh
+docker compose up
+```
+
 ```sh
 npm start
 ```
@@ -67,12 +73,12 @@ npm run lint:fix
 npm test
 ```
 
-## Docker and api
+## Docker and api information
 
 Using the docker's [postgress image](https://hub.docker.com/_/postgres)
 
-- `docker compose up`
-- the admin page is at `http://localhost:8080/`
+- start the docker image with `docker compose up`
+- the postgersql admin page is at `http://localhost:8080/`
 - try the api at `localhost:3000/users`
 
 ## What's next
